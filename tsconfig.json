@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/js",
+        "target": "ES6", 
+        "noEmitOnError": true,
+        "noImplicitAny": true //deixa de tipar variaveis não especificadas como any
+    },
+    "include": ["app/**/*"]
+}
