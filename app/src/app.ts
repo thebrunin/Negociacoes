@@ -12,3 +12,13 @@ if(form) {
     
 }
 
+const botaoImporta= document.querySelector("#botao-importa");
+if(botaoImporta) {
+    botaoImporta.addEventListener("click", ( ) => {
+        controller.importarDados();
+    });
+} else {
+    throw Error('Botao não encontrado');
+    
+}
+
